@@ -20,8 +20,8 @@
             echo "<td>".$row->id."</td>";
             echo "<td>".$row->nome."</td>";
             echo "<td>".$row->email."</td>";
-            echo "<td>".$row->data_nasc."</td>";
-            echo "<td>
+            echo "<td class='col-1'>".$row->data_nasc."</td>";
+            echo "<td class='col-2'>
                 <button onclick=\"location.href='?page=editar&id=".$row->id."';\" class='btn btn-secondary'>Editar</button>
                 <button onclick=\"if(confirm('Tem certeza que desejar excluir?')){location.href='?page=salvar&acao=excluir&id=".$row->id."';}else{false;} \" class='btn btn-danger'>Excluir</button>
                 </td>";

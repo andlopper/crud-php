@@ -51,7 +51,7 @@
             }
             break;
         default:
-            echo "Opção inválida, entre em contato com o administrador."
+            echo "Opção inválida, entre em contato com o administrador.";
             break;
     }
 ?>
